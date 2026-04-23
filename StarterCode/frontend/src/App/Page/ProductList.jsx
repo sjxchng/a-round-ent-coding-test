@@ -41,7 +41,7 @@ const ProductList = () => {
       .then(() => {
         // remove the deleted product from state so the card disappears without re-fetching
         setProducts((prevProducts) => {
-          // filter() creayes a new array that keeps every product except the one w/ id that matches
+          // filter() creates a new array that keeps every product except the one w/ id that matches
           return prevProducts.filter((product) => {
             return product.id !== id;
           });
