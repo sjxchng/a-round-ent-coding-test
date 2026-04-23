@@ -1,11 +1,22 @@
-# SWE INTERVIEW TEST 
-THIS IS TO TEST YOUR SKILLS TO MEET OUR APP DEVELOPMENT REQUIREMENTS
+# A Round Entertainment SWE Interview Coding Test Assignment
 
-1. Clone this repo to your local machine.
-2. Read `Assignment Requirements` carefully and follow it.
-4. Please commit your entire code to `your own Github repository` 
-5. On your repo, please add step-by-step instructions on how to launch (for both the Backend and Frontend) to the `README.md`
-6. Share your repo link with us via email.
+## Prerequisites
+- Node.js installed
 
-HAPPY CODING! </br>
-A Round Entertainment
+## Backend
+cd StarterCode/backend
+
+npm install
+
+node index.js
+
+Runs on http://localhost:5001
+
+## Frontend
+cd StarterCode/frontend
+
+npm install
+
+npm start
+
+Runs on http://localhost:3000
